@@ -7,11 +7,11 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Đình Khôi
+&emsp; **Họ và tên:** Lê Quốc Việt
 
-&emsp; **Số điện thoại:** 0967999015
+&emsp; **Số điện thoại:** 0387078629
 
-&emsp; **Email:** khoinguyen0014@gmail.com
+&emsp; **Email:** lequocviet192004@gmail.com
 
 &emsp; **Trường:** Đại học Công nghệ TP.HCM (Hutech)
 

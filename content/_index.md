@@ -8,11 +8,11 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Dinh Khoi
+&emsp; **Full Name:** Le Quoc Viet
 
-&emsp; **Phone Number:** 0967999015 
+&emsp; **Phone Number:** 0387078629
 
-&emsp; **Email:** khoinguyen0014@gmail.com
+&emsp; **Email:** lequocviet192004@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 

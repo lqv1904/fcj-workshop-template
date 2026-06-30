@@ -20,7 +20,7 @@ pre: " <b> 1.9. </b> "
 | 3 | **AWS Systems Manager:** Centrally manage resources. Configure Patch Manager and use Run Command to automate software patching and command execution across multiple servers simultaneously. | 16/06/2026 | 16/06/2026 | https://000031.awsstudygroup.com/1-introduction/ |
 | 4 | **EC2 Right-sizing:** Install CloudWatch Agent to collect memory metrics. Utilize AWS Resource Optimization and AWS Compute Optimizer to analyze and select the appropriate EC2 configurations. | 17/06/2026 | 17/06/2026 | https://000032.awsstudygroup.com/1-introduction/ |
 | 6 | **Encryption with AWS KMS:** Create a Key Management Service (KMS) key and set up encryption to protect data on Amazon S3. Combine with CloudTrail to log API activity and use Athena to query the logs. | 19/06/2026 | 19/06/2026 | https://000033.awsstudygroup.com/1-introduction/ |
-| 7 | **Event:** Participate in Event 3. | 20/06/2026 | 20/06/2026 | FCAJ Event |
+
 
 ### Week 9 Achievements:
 * **Access Control Security (IAM):** Successfully understood and applied IAM Permission Boundary, effectively preventing privilege escalation risks in systems with complex user roles.

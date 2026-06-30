@@ -20,7 +20,7 @@ pre: " <b> 1.5. </b> "
 | 2 | **VM Import/Export:** Practice the virtual machine image import/export feature from on-premises environments (like VMware) to Amazon EC2 for application migration or backup (Disaster Recovery). Learn about Amazon S3 storage. | 18/05/2026 | 18/05/2026 | https://000014.awsstudygroup.com/1-introduction/ |
 | 3-5 | **Deploying Applications with Docker Containers:** Build and manage the deployment process using Docker Hub, Amazon ECR, Amazon EC2, and Amazon RDS. Configure Nginx as a Reverse Proxy and Load Balancer to route traffic from the Client to the Frontend/Backend. | 19/05/2026 | 21/05/2026 | https://000015.awsstudygroup.com/1-introduction/ |
 | 6 | **Study - ECS, CI/CD & Monitoring:** Research Amazon ECS architecture (Task, Service, Cluster, Fargate/EC2). Explore CI/CD platforms (GitHub Actions, GitLab CI/CD, AWS CodePipeline) and monitoring tools (CloudWatch Container Insights, FireLens). | 22/05/2026 | 22/05/2026 | https://000016.awsstudygroup.com/1-introduction/ <br>&emsp; https://000017.awsstudygroup.com/1-introduction/|
-| 7 | Event: Participate in Event 2. | 23/05/2026 | 23/05/2026 | [View Event 2 Report](/4-eventparticipated/4.2-event2/) |
+
 
 ### Week 5 Achievements:
 * **Cloud Migration & Storage:** Capable of securely converting and transferring virtual machine (VM) images from a local environment to Amazon EC2 infrastructure, effectively meeting the needs for workload migration scenarios and disaster recovery.

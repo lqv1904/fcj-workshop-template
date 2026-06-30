@@ -20,7 +20,7 @@ pre: " <b> 1.5. </b> "
 | 2 | **VM Import/Export:** Thực hành tính năng import/export image máy ảo từ môi trường on-premises (như VMware) lên Amazon EC2 để phục vụ di chuyển ứng dụng hoặc sao lưu (Disaster Recovery). Tìm hiểu lưu trữ Amazon S3. | 18/05/2026 | 18/05/2026 | https://000014.awsstudygroup.com/1-introduction/ |
 | 3-5 | **Triển khai ứng dụng với Docker Containers:** Xây dựng và quản lý quy trình triển khai bằng Docker Hub, Amazon ECR, Amazon EC2 và Amazon RDS. Cấu hình Nginx làm Reverse Proxy và Load Balancer để điều hướng lưu lượng từ Client đến Frontend/Backend. | 19/05/2026 | 21/05/2026 | https://000015.awsstudygroup.com/1-introduction/ |
 | 6 | **Study - ECS, CI/CD & Monitoring:** Nghiên cứu kiến trúc Amazon ECS (Task, Service, Cluster, Fargate/EC2). Tìm hiểu các nền tảng CI/CD (GitHub Actions, GitLab CI/CD, AWS CodePipeline) và công cụ giám sát (CloudWatch Container Insights, FireLens). | 22/05/2026 | 22/05/2026 | https://000016.awsstudygroup.com/1-introduction/ <br>&emsp; https://000017.awsstudygroup.com/1-introduction/|
-| 7 | Sự kiện: Tham gia Event 2. | 23/05/2026 | 23/05/2026 | [Xem báo cáo Event 2](/4-eventparticipated/4.2-event2/) |
+
 
 ### Kết quả đạt được tuần 5:
 * **Di chuyển & Lưu trữ đám mây:** Có khả năng chuyển đổi và đưa các image máy ảo (VM) từ môi trường cục bộ lên hạ tầng Amazon EC2 một cách an toàn, đáp ứng tốt cho các kịch bản di chuyển khối lượng công việc (workloads) và khắc phục thảm họa.

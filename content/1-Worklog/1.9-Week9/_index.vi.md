@@ -21,7 +21,6 @@ pre: " <b> 1.9. </b> "
 | 3 | **AWS Systems Manager:** Quản lý tập trung tài nguyên. Cấu hình Patch Manager và sử dụng Run Command để tự động hóa việc vá lỗi phần mềm và thực thi lệnh trên nhiều máy chủ cùng lúc. | 16/06/2026 | 16/06/2026 | https://000031.awsstudygroup.com/1-introduction/ |
 | 4 | **Tối ưu kích thước EC2:** Cài đặt CloudWatch Agent để thu thập chỉ số bộ nhớ (Memory). Sử dụng AWS Resource Optimization và AWS Compute Optimizer để phân tích và chọn cấu hình EC2 phù hợp (Right-sizing). | 17/06/2026 | 17/06/2026 | https://000032.awsstudygroup.com/1-introduction/ |
 | 6 | **Mã hóa với AWS KMS:** Tạo khóa quản lý dịch vụ (KMS), thiết lập mã hóa bảo vệ dữ liệu trên Amazon S3. Kết hợp với CloudTrail để ghi nhận nhật ký API và dùng Athena để truy vấn log. | 19/06/2026 | 19/06/2026 | https://000033.awsstudygroup.com/1-introduction/ |
-| 7 | **Sự kiện:** Tham gia sự kiện Event 3. | 20/06/2026 | 20/06/2026 | FCAJ Event |
 
 ### Kết quả đạt được tuần 9:
 * **Bảo mật phân quyền (IAM):** Hiểu và áp dụng thành công IAM Permission Boundary, ngăn chặn hiệu quả rủi ro leo thang đặc quyền khi hệ thống có nhiều người dùng phức tạp.
