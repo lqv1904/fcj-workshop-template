@@ -6,28 +6,25 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+# Workshop: Triển khai Hệ thống WeDo Workspace trên AWS
 
 #### Tổng quan
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+**WeDo Workspace** là một hệ thống quản lý dự án nội bộ và không gian làm việc cộng tác được thiết kế theo kiến trúc Container, sử dụng Java Spring Boot cho Backend và ReactJS/NextJS cho Frontend.
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
+Trong chuỗi bài Lab (Workshop) thực chiến này, chúng ta sẽ học cách từng bước đưa hệ thống từ môi trường phát triển (Local) lên nền tảng điện toán đám mây AWS chuẩn doanh nghiệp. Khác với các hệ thống Serverless đơn giản, Workshop này sẽ đi sâu vào việc triển khai hạ tầng bảo mật **Đa vùng sẵn sàng (Multi-AZ)**.
 
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
+Bạn sẽ tự tay thiết lập mạng nội bộ (VPC), cơ sở dữ liệu quan hệ (Amazon RDS), đóng gói ứng dụng bằng Docker chạy trên Amazon ECS (Fargate), và thiết lập Application Load Balancer để đảm bảo tính sẵn sàng cao (High Availability). Mục tiêu cuối cùng là giúp bạn nắm vững vòng đời triển khai một ứng dụng thực tế trên AWS, từ cấu hình hạ tầng cơ sở đến khi website chính thức public ra Internet một cách bảo mật.
 
-#### Nội dung
+#### Nội dung Workshop
 
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
+1. [Module 1: Tổng quan & Mục tiêu dự án](5.1-Introduction/)
+2. [Module 2: Điều kiện tiên quyết & Cài đặt](5.2-Prerequisites/)
+3. [Module 3: Hạ tầng mạng (VPC) & IAM](5.3-IAM-Infrastructure/)
+4. [Module 4: Cơ sở dữ liệu (RDS) & Lưu trữ (EFS)](5.4-Database/)
+5. [Module 5: Backend Core - Spring Boot & ECS](5.5-Backend-Core/)
+6. [Module 6: Frontend & Tích hợp S3](5.6-Frontend-S3/)
+7. [Module 7: Bảo mật biên (WAF & CloudFront)](5.7-Edge-Security/)
+8. [Module 8: Giám sát hệ thống (CloudWatch)](5.8-Monitoring/)
+9. [Module 9: Triển khai & Go-Live](5.9-Deployment/)
+10. [Module 10: Dọn dẹp tài nguyên](5.10-Cleanup/)

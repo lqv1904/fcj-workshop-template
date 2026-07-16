@@ -1,31 +1,19 @@
 ---
 title: "Blog 2"
-date: 2024-01-01
+date: 2026-06-07
 weight: 1
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+# Tối ưu hóa hiệu năng ứng dụng Spring Boot Serverless trên AWS Lambda với tính năng SnapStart
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+**Đặt vấn đề**: Ứng dụng Spring Boot truyền thống khi chuyển đổi sang kiến trúc Serverless (AWS Lambda) thường gặp vấn đề "Cold Start" đáng kể do thời gian khởi tạo Application Context và thư viện quá dài, làm giảm trải nghiệm người dùng
 
-Các điểm chính cần nắm:
+**Giải pháp kiến trúc**: Triển khai AWS Lambda tích hợp SnapStart để tối ưu hóa thời gian khởi động thông qua cơ chế khôi phục trạng thái từ snapshot. Hệ thống kết hợp Amazon API Gateway, AWS Secrets Manager để bảo mật thông tin, và Amazon RDS trong Private Subnet để đảm bảo an toàn dữ liệu
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+**Quy trình thực thi**: Yêu cầu từ người dùng thông qua API Gateway kích hoạt AWS Lambda. SnapStart giúp Lambda khôi phục trạng thái nhanh chóng, bỏ qua quá trình khởi động nặng. Lambda sau đó truy xuất thông tin bảo mật từ Secrets Manager và thực thi truy vấn dữ liệu từ Amazon RDS
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+**Đánh giá giải pháp**: Giải pháp giải quyết triệt để vấn đề Cold Start cho Java, hỗ trợ khả năng tự động mở rộng linh hoạt và tối ưu chi phí vận hành cho các doanh nghiệp đang hiện đại hóa hệ thống hoặc chuyển đổi sang Microservices
 
-...Hình ảnh...
-
-...Link...
-
-...Hướng dẫn...
+![Sơ đồ kiến trúc AI Diet Tracker](/images/3-blogsposted/blog2/blog2.jpg)

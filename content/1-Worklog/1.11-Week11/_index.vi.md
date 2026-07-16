@@ -5,55 +5,28 @@ weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Kiểm tra kết nối hạ tầng (ALB, EC2, SQS) và khả năng truy cập qua Load Balancer.
+* Kiểm thử luồng "Generate Unit Test" và phối hợp kiểm tra các chức năng sau tích hợp.
+* Khắc phục lỗi phát sinh khi tích hợp và điều chỉnh cấu hình AWS (VPC, Security Groups, IAM Role).
+* Kiểm thử lại toàn bộ hệ thống và đánh giá hiệu năng, bảo mật của kiến trúc.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2 + 3   | - Kiểm tra kết nối giữa Application Load Balancer, Amazon EC2 và Amazon SQS <br> - Kiểm tra khả năng truy cập ứng dụng thông qua Load Balancer                                                                                             | 30/06/2026   | 01/06/2026      |
+| 4 + 5   | - Kiểm thử luồng xử lý Generate Unit Test của hệ thống <br> - Phối hợp với các thành viên kiểm tra các chức năng sau khi tích hợp                                                                                             | 02/07/2026   | 03/07/2026      |
+| 6  | - Khắc phục các lỗi phát sinh trong quá trình tích hợp <br> - Điều chỉnh cấu hình VPC, Security Groups và IAM Role khi cần thiết                                                                                             | 04/07/2026   | 04/07/2026      |
+| 7  | - Thực hiện kiểm thử lại toàn bộ hệ thống <br> - Đánh giá hiệu năng và khả năng bảo mật của kiến trúc triển khai                                                                                             | 05/07/2026   | 05/07/2026      |
 
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hệ thống kết nối ổn định, truy cập mượt mà qua Load Balancer.
+* Luồng "Generate Unit Test" và các chức năng tích hợp hoạt động chính xác.
+* Đã xử lý triệt để các lỗi tích hợp và tối ưu xong cấu hình mạng, bảo mật.
+* Hoàn tất kiểm thử toàn hệ thống, kiến trúc đáp ứng tốt yêu cầu về hiệu năng và bảo mật.
 
 

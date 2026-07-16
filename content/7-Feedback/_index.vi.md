@@ -5,40 +5,18 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
 ### Đánh giá chung
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+**1. Nội dung chương trình**  
+Chương trình được xây dựng theo lộ trình hợp lý, bắt đầu từ các kiến thức cơ bản về AWS trước khi chuyển sang các nội dung triển khai thực tế. Việc kết hợp giữa lý thuyết và thực hành giúp người học có cơ hội áp dụng ngay những kiến thức đã tiếp cận. Nhờ đó, khi bước vào Workshop của nhóm, việc triển khai phần hạ tầng được phân công diễn ra thuận lợi hơn.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**2. Chất lượng tài liệu**  
+Tài liệu học tập và hướng dẫn Workshop được trình bày khá chi tiết, có hình minh họa và hướng dẫn từng bước rõ ràng. Việc phân chia nội dung theo từng thành viên giúp xác định chính xác phạm vi công việc, hạn chế chồng chéo trong quá trình triển khai. Bên cạnh đó, tài liệu chính thức của AWS cũng là nguồn tham khảo hữu ích để tìm hiểu sâu hơn về từng dịch vụ.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+**3. Kỹ năng đạt được**  
+Sau 12 tuần học tập và thực hành, kiến thức về quản lý danh tính với IAM, thiết kế hạ tầng mạng bằng Amazon VPC, Public/Private Subnet, NAT Gateway và Security Groups được củng cố đáng kể. Đồng thời, kỹ năng lập kế hoạch, phối hợp nhóm và bàn giao hạ tầng giữa các thành viên cũng được cải thiện thông qua quá trình thực hiện Workshop.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+**4. Hỗ trợ từ chương trình**  
+WS Credits được cấp trong chương trình tạo điều kiện thuận lợi để thực hành trên môi trường AWS thực tế mà không phải quá lo ngại về chi phí. Bên cạnh đó, các buổi Workshop cùng hệ thống tài liệu hướng dẫn đã hỗ trợ hiệu quả trong quá trình học tập và triển khai đồ án. Nhận được rất nhiều sự hỗ trợ từ tất cả các anh/chị admin trong chương trình và những người khác.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
-
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
-
-
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
-
-
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):

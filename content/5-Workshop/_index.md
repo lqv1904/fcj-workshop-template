@@ -5,27 +5,26 @@ weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# Secure Hybrid Access to S3 using VPC Endpoints
+# Workshop: Deploying WeDo Workspace System on AWS
 
 #### Overview
 
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
+**WeDo Workspace** is an internal project management and collaborative workspace system designed with a Container architecture, utilizing Java Spring Boot for the Backend and ReactJS/NextJS for the Frontend.
 
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
+In this hands-on Workshop series, we will learn step-by-step how to transition the system from a local development environment to an enterprise-grade AWS Cloud platform. Unlike simple Serverless systems, this Workshop will dive deep into deploying a highly secure **Multi-Availability Zone (Multi-AZ)** infrastructure.
 
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
+You will manually set up an internal network (VPC), a relational database (Amazon RDS), package the application using Docker to run on Amazon ECS (Fargate), and configure an Application Load Balancer to ensure High Availability. The ultimate goal is to help you master the deployment lifecycle of a real-world application on AWS, from configuring the base infrastructure to officially and securely publishing the website to the Internet.
 
-#### Content
+#### Workshop Contents
 
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequiste](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-S3-vpc/)
-4. [Access S3 from On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
-6. [Clean up](5.6-Cleanup/)
+1. [Module 1: Overview & Project Goals](5.1-Introduction/)
+2. [Module 2: Prerequisites & Setup](5.2-Prerequisites/)
+3. [Module 3: Network Infrastructure (VPC) & IAM](5.3-IAM-Infrastructure/)
+4. [Module 4: Database (RDS) & Storage (EFS)](5.4-Database/)
+5. [Module 5: Backend Core - Spring Boot & ECS](5.5-Backend-Core/)
+6. [Module 6: Frontend & S3 Integration](5.6-Frontend-S3/)
+7. [Module 7: Edge Security (WAF & CloudFront)](5.7-Edge-Security/)
+8. [Module 8: System Monitoring (CloudWatch)](5.8-Monitoring/)
+9. [Module 9: Deployment & Go-Live](5.9-Deployment/)
+10. [Module 10: Resource Cleanup](5.10-Cleanup/)
