@@ -1,4 +1,4 @@
-baseURL = "https://lqv1904.github.io/FCAJ-Workshop/"
+baseURL = "https://lqv1904.github.io/fcj-workshop-template/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
