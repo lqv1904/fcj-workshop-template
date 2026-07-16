@@ -55,4 +55,4 @@ pre: " <b> 4.1. </b> "
 
 Participating in the FCAJ event was a highly rewarding experience. It gave me a comprehensive view of how to study, deepened my knowledge of AWS during my internship, and expanded my skills in AI. Throughout my internship, I attended this event, and it became a memorable experience filled with new, exciting, and valuable knowledge, along with wonderful gifts and moments
 
-![Image Event](/images/4-EventParticipated/event1/event1.jpg)
+![Image Event](/fcj-workshop-template/images/4-EventParticipated/4.1-Event1/event1.jpg)

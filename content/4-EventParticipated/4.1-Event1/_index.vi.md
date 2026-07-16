@@ -53,4 +53,4 @@ pre: " <b> 4.1. </b> "
 
 Tham gia Event **FCAJ** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách học tập, nắm vững thêm kiến thức về AWS trong thời gian thực tập, mở rộng kỹ năng hơn về AI. Trong quá trình thực tập, em đã tham gia 1 events, với event này là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
 
-![Hình ảnh Event](/images/4-EventParticipated/event1/event1.jpg)
+![Hình ảnh Event](/fcj-workshop-template/images/4-EventParticipated/4.1-Event1/event1.jpg)
