@@ -16,4 +16,4 @@ pre: " <b> 3.2. </b> "
 
 **Đánh giá giải pháp**: Giải pháp giải quyết triệt để vấn đề Cold Start cho Java, hỗ trợ khả năng tự động mở rộng linh hoạt và tối ưu chi phí vận hành cho các doanh nghiệp đang hiện đại hóa hệ thống hoặc chuyển đổi sang Microservices
 
-![Sơ đồ kiến trúc AI Diet Tracker](/images/3-blogsposted/blog2/blog2.jpg)
+![Sơ đồ kiến trúc AI Diet Tracker](/fcj-workshop-template/images/3-Blogsposted/blog2/blog2.jpg)
