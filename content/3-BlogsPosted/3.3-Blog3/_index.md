@@ -17,7 +17,7 @@ This article shares a practical architectural solution to significantly accelera
 * **Security & Credentials:** Integrates AWS Secrets Manager to securely store and manage database connection strings (Database Credentials), completely eliminating the risk of hardcoding in the source code.
 * **Network Isolation:** The RDS database and ElastiCache cluster are strictly isolated within a Private Subnet, allowing internal connections only from the ECS cluster.
  
-![Cache-Aside Architecture Diagram](/fcj-workshop-template/images/3-Blogsposted/blog3/blog3.jpg)
+![Cache-Aside Architecture Diagram](/fcj-workshop-template/images/3-BlogsPosted/blog3.jpg)
 
 **Detailed Deployment Guide:**
  
