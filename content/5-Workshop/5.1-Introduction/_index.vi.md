@@ -49,7 +49,7 @@ Dự án được thực hiện bởi nhóm 5 thành viên, sử dụng chung 1 
 *(Ghi chú: Các Module 1, 2, 12 được cả nhóm cùng phối hợp thực hiện).*
 
 ### 5.1.7. Luồng xử lý thực tế (Production Flow)
-![Kiến trúc WeDo Workspace](/images/5.1-Workshop-overview/diagram1.png)
+![Kiến trúc WeDo Workspace](/fcj-workshop-template/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
 
 **Chú thích các bước trên sơ đồ:**
 1. **DNS Resolution**: Phân giải tên miền qua Route 53.
