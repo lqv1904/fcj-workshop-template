@@ -7,7 +7,7 @@ pre : " <b> 5.9. </b> "
 ---
 
 ### 5.9.1. Overall Architecture Review
-The current system satisfies the standards of the AWS Well-Architected Framework:
+The current system satisfies the standards of the AWS Well-Architectitected Framework:
 * **High Availability:** Multi-AZ deployment with VPC, ALB, NAT Gateway, and RDS.
 * **Security:** Private Subnets, WAF, Secrets Manager, and least-privilege IAM permissions.
 * **Scalability:** Uses Serverless ECS Fargate to automatically scale based on load.
@@ -22,8 +22,8 @@ The current system satisfies the standards of the AWS Well-Architected Framework
 <br>
 
 <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <source src="/fcj-workshop-template/video/demo-aws.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+   <source src="/fcj-workshop-template/video/demo-aws.mp4" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 
 ### 5.9.2. Production Environment
